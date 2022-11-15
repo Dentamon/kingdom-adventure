@@ -4,6 +4,7 @@ namespace SpriteKind {
     export const Danger = SpriteKind.create()
     export const Block = SpriteKind.create()
     export const bad = SpriteKind.create()
+    export const Guard = SpriteKind.create()
 }
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile1`, function (sprite, location) {
     sprites.destroyAllSpritesOfKind(SpriteKind.Coin)
